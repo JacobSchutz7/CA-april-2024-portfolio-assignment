@@ -1,5 +1,9 @@
 # Portfolio Assignment
 
+## Links 
+ - Website link
+ - Github repo
+
 ## Planning Nonsense
 - Four pages
   - homepage
@@ -19,3 +23,7 @@ More personal information. Listing hobbies, etc. Probably just going to Lorem ip
 ### Blog 
 Five lorem ipsum blog posts each with a picture. 
 
+## Description 
+
+
+## Tech Stack 
