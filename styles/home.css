@@ -1,30 +1,30 @@
 :root {
 	--main-colour: white;
 	--second-colour: black;
-	--main-font: Montserrat;
+	--main-font: 'Roboto', 'sans serif';
+	--second-font: 'Open sans', 'sans serif';
 }
 
 header {
 	color: var(--main-colour);
 	background-color: var(--second-colour);
-	padding: 3vh;
 }
 
 body {
 	margin: 0;
 	background-color: var(--second-colour);
-	font-family: var(--main-font);
 }
 
 h1 {
 	text-align: center;
+	font-family: var(--main-font);
 }
 
 nav {
-	margin: 0;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
+	font-family: var(--main-font);
 }
 
 nav a {
@@ -32,7 +32,7 @@ nav a {
 	background-color: var(--main-colour);
 	border-radius: 5%;
 	padding: 1.5vw;
-	width: 18vw;
+	width: 18dvw;
 	text-align: center;
 }
 
@@ -44,13 +44,14 @@ main {
 
 .intro-text {
 	color: var(--main-colour);
-	margin-top: 3vh;
+	margin-top: 3dvh;
 	border-radius: 5%;
 	text-align: center;
+	font-family: var(--second-font);
 }
 
 .intro-text p {
-	margin: 3vw;
+	margin: 3dvw;
 }
 
 .home-links {
@@ -59,14 +60,15 @@ main {
 	align-items: center;
 	justify-content: center;
 	background-color: var(--main-colour);
-	margin: 3vw;
+	margin: 3dvw;
 	border-radius: 5%;
-	width: 60vw;
-	height: 30vh;
+	width: 60dvw;
+	height: 30dvh;
 }
 
 .home-links img {
-	width: 50vw;
+	width: 50dvw;
+	height: 22.5dvh;
 	border-radius: 5%;
 }
 
@@ -80,4 +82,5 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	color: var(--main-colour);
 }
