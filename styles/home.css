@@ -1,10 +1,3 @@
-:root {
-	--main-colour: white;
-	--second-colour: black;
-	--main-font: 'Roboto', 'sans serif';
-	--second-font: 'Open sans', 'sans serif';
-}
-
 main {
 	display: flex;
 	flex-direction: column;
@@ -23,7 +16,7 @@ main {
 	margin: 3dvw;
 }
 
-.home-links {
+.home-links a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -35,13 +28,17 @@ main {
 	height: 30dvh;
 }
 
-.home-links img {
+.home-links a img {
 	width: 50dvw;
 	height: 22.5dvh;
 	border-radius: 5%;
 }
 
-.home-links h3 {
+.home-links a {
+	text-decoration: none;
+}
+
+.home-links a span {
 	font-size: 20px;
 	margin: 2px;
 	color: var(--second-colour)
@@ -59,13 +56,13 @@ main {
 		width: 100%;
 	}
 
-	.home-links {
+	.home-links a {
 		width: 28dvw;
 		height: 25dvh;
 		margin: 1dvw;
 	}
 
-	.home-links img {
+	.home-links a img {
 		width: 25dvw;
 		height: 20dvh;
 	}

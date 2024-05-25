@@ -1,11 +1,27 @@
+:root {
+	--main-colour: white;
+	--second-colour: black;
+	--background-colour: #547AA5;
+	--main-font: 'Roboto', 'sans serif';
+	--second-font: 'Open sans', 'sans serif';
+}
+
 header {
-	color: var(--main-colour);
-	background-color: var(--second-colour);
+	color: var(--background-colour);
+	background-color: var(--main-colour);
+	width: 100%;
+	margin-top: -20px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 body {
 	margin: 0;
-	background-color: var(--second-colour);
+	background-color: var(--background-colour);
 }
 
 h1 {
@@ -22,8 +38,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	background-color: var(--main-colour);
-	border-radius: 5%;
+	color: var(--background-colour);
 	padding: 1.5vw;
 	width: 18dvw;
 	text-align: center;
@@ -33,5 +48,22 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: var(--main-colour);
+	color: var(--background-colour);
+	background-color: var(--main-colour);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+@media screen and (width > 600px) {
+	nav a {
+		border-radius: 15%;
+		width: 10dvw;
+	}
+
+	footer {
+		flex-direction: row;
+		justify-content: space-evenly;
+		height: 100px;
+	}
 }
