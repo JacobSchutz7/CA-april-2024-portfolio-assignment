@@ -2,6 +2,7 @@
 	--main-colour: white;
 	--second-colour: black;
 	--background-colour: #547AA5;
+	--border-colour: #A7C6DA;
 	--main-font: 'Roboto', 'sans serif';
 	--second-font: 'Open sans', 'sans serif';
 }
@@ -11,6 +12,9 @@ header {
 	background-color: var(--main-colour);
 	width: 100%;
 	margin-top: -20px;
+	border-bottom: solid;
+	border-color: var(--border-colour);
+	border-width: 3px;
 }
 
 main {
@@ -51,8 +55,10 @@ footer {
 	color: var(--background-colour);
 	background-color: var(--main-colour);
 	position: absolute;
-	bottom: 0;
 	width: 100%;
+	border-top: solid;
+	border-color: var(--border-colour);
+	border-width: 3px;
 }
 
 @media screen and (width > 600px) {
@@ -64,6 +70,6 @@ footer {
 	footer {
 		flex-direction: row;
 		justify-content: space-evenly;
-		height: 100px;
+		bottom: 0px;
 	}
 }
