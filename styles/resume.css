@@ -1,0 +1,23 @@
+h2 {
+	font-family: var(--main-font);	
+}
+
+.content {
+	font-family: var(--main-font);
+	background-color: var(--main-colour);
+	border-radius: 5%;
+	margin: 2dvh 5dvw;
+	padding: 5px 10px;
+}
+
+.content h4 {
+	padding-left:15px;
+}
+
+.content a {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
