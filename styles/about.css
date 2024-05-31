@@ -5,6 +5,10 @@ main {
 	justify-content: space-evenly;
 }
 
+h2, h3, .about-content{
+	font-family: var(--main-font);
+}
+
 .about-content {
 	background-color: var(--main-colour);
 	border-radius: 15%;
