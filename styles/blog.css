@@ -1,0 +1,19 @@
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.blog-post {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--main-colour);
+	border-radius: 5%;
+	margin: 2dvh 3dvw;
+	padding: 15px;
+}
+
+img {
+	width: 80dvw;
+	border-radius: 5%;
+}
