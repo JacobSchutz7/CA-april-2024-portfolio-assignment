@@ -11,17 +11,14 @@ h2, h3, .about-content{
 }
 
 .about-content {
-	background-color: var(--accent-colour);
 	border-radius: 15%;
 	margin-bottom: 10px;
 	width: 90%;
-	height: 30dvh;
 }
 
 #about-me {
 	display:flex;
 	flex-direction: column;
-	height: 50dvh;
 	align-items: center;
 }
 
@@ -38,4 +35,14 @@ h2, h3, .about-content{
 .about-content img {
 	width: 60dvw;
 	border-radius: 5%;
+}
+
+@media screen and (width > 600px) {
+	.about-content {
+		width: 70%;
+	}
+	
+	.about-content img {
+		width: 50%;
+	}
 }
