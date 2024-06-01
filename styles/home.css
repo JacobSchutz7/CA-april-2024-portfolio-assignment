@@ -21,7 +21,6 @@ main {
 	justify-content: center;
 	margin: 3dvw;
 	border-radius: 5%;
-	/* sizing of the element */
 	width: 60dvw;
 	height: 30dvh;
 	text-decoration: none;
@@ -66,7 +65,7 @@ main {
 		height: 20dvh;
 	}
 }
-
+/* change the styling again for even larger screens, particuarly for the images */
 @media screen and (width > 1000px) {
 	.home-links a {
 		height: 50dvh;

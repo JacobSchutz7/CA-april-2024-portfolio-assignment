@@ -1,25 +1,26 @@
+/* implement flexbox layout for the main section of the page */
 main {
 	display: flex;
 	flex-direction: column;
 }
-
+/* implement fonts and font colours */
 h2, h3, .blog-post {
 	color: var(--text-colour);
 	font-family: var(--second-font);
 }
-
+/* implement flexbox layout within each blog post component */
 .blog-post {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 90%;
 }
-
+/* sizing images for the whole page */
 img {
 	width: 80dvw;
 	border-radius: 5%;
 }
-
+/* adjustments for layout for larger screens */
 @media screen and (width > 600px) {
 	.blog-post {
 		width: 70%;

@@ -1,24 +1,25 @@
+/* implement fonts and font colours */
 h2, h3, .content{
 	font-family: var(--main-font);
 	color: var(--text-colour);
 }
-
+/* layout for text content */
 .content {
 	width: 90%;
 }
-
+/* layout adjustments for heading */
 .content h4 {
-	padding-left:15px;
+	padding-left: 15px;
 }
-
+/* center the text of links */
 .content a {
 	text-align: center;
 }
-
+/* center headings */
 h3 {
 	text-align: center;
 }
-
+/* adjustments to layout for different screen sizes */
 @media screen and (width > 600px) {
 	.content {
 		width: 70%;
