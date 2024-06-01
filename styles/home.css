@@ -66,3 +66,13 @@ main {
 		height: 20dvh;
 	}
 }
+
+@media screen and (width > 1000px) {
+	.home-links a {
+		height: 50dvh;
+	}
+
+	.home-links a img {
+		height: 40dvh;
+	}
+}

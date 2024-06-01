@@ -68,8 +68,17 @@ nav a {
 	text-decoration: none;
 	color: var(--background-colour);
 	padding: 1.5vw;
+	padding-bottom: 1vh;
 	width: 18dvw;
 	text-align: center;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 1px;
+	transition: border 0.5s;
+}
+
+nav a:hover {
+	border-color: var(--background-colour);
 }
 
 footer {
@@ -97,8 +106,11 @@ footer a {
 		justify-content: space-evenly;
 	}
 
+	nav {
+		width: 60%;
+	}
+
 	nav a {
-		border-radius: 15%;
 		width: 10dvw;
 	}
 
