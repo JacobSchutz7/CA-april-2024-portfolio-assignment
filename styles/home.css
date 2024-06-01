@@ -4,12 +4,15 @@ main {
 	align-items: center;
 }
 
-.intro-text {
+.home-links a, .intro-text {
+	font-family: var(--second-font);
 	color: var(--text-colour);
+}
+
+.intro-text {
 	margin-top: 3dvh;
 	border-radius: 5%;
 	text-align: center;
-	font-family: var(--second-font);
 }
 
 .intro-text p {
