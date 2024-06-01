@@ -1,25 +1,22 @@
+/* implement flexbox method for layout of main content */
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
-.home-links a, .intro-text {
+/* set fonts and font colours */
+.home-links a, .home-links span, .intro-text {
 	font-family: var(--second-font);
 	color: var(--text-colour);
 }
-
+/* positioning of intro-text element */
 .intro-text {
-	margin-top: 3dvh;
-	border-radius: 5%;
+	margin-top: 2dvh;
 	text-align: center;
 }
-
-.intro-text p {
-	margin: 3dvw;
-}
-
+/* implentation of flexbox within home-links elements to keep them in columns and centered, and other styling */
 .home-links a {
+	/* styling and layout of element */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -27,26 +24,27 @@ main {
 	background-color: var(--accent-colour);
 	margin: 3dvw;
 	border-radius: 5%;
+	/* sizing of the element */
 	width: 60dvw;
 	height: 30dvh;
 	text-decoration: none;
+	/* box shadow styling from cssgenerator.org */
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
-
+/* image specfic styling */
 .home-links a img {
 	width: 50dvw;
 	height: 22.5dvh;
 	border-radius: 5%;
 }
-
+/* set font sizing and margins span elements */
 .home-links a span {
 	font-size: 20px;
 	margin: 2px;
-	color: var(--text-colour)
 }
-
+/* changing the layout, styling and sizes for elements on a larger screen */
 @media screen and (width > 600px) {
 	main {
 		display: flex;
