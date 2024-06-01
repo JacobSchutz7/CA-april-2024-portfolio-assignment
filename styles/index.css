@@ -101,9 +101,15 @@ footer a {
 @media screen and (width > 600px) {
 	header {
 		display: flex;
+		justify-content: center;
+	}
+
+	#header-content {
+		display: flex;
 		flex-direction: row;
 		align-items: baseline;
 		justify-content: space-evenly;
+		width: 75%;
 	}
 
 	nav {
@@ -118,5 +124,11 @@ footer a {
 		flex-direction: row;
 		justify-content: space-evenly;
 		bottom: 0;
+	}
+}
+
+@media screen and (width > 1000px) {
+	#header-content {
+		width: 60%;
 	}
 }
