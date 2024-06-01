@@ -30,6 +30,9 @@ main {
 	width: 60dvw;
 	height: 30dvh;
 	text-decoration: none;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .home-links a img {
