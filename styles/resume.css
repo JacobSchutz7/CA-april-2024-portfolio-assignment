@@ -4,10 +4,7 @@ h2, h3, .content{
 }
 
 .content {
-	background-color: var(--accent-colour);
-	border-radius: 5%;
-	margin: 2dvh 5dvw;
-	padding: 5px 10px;
+	width: 90%;
 }
 
 .content h4 {
@@ -20,4 +17,10 @@ h2, h3, .content{
 
 h3 {
 	text-align: center;
+}
+
+@media screen and (width > 600px) {
+	.content {
+		width: 70%;
+	}
 }
