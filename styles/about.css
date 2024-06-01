@@ -7,10 +7,11 @@ main {
 
 h2, h3, .about-content{
 	font-family: var(--main-font);
+	color: var(--text-colour);
 }
 
 .about-content {
-	background-color: var(--main-colour);
+	background-color: var(--accent-colour);
 	border-radius: 15%;
 	margin-bottom: 10px;
 	width: 90%;

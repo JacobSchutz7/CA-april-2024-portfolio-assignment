@@ -5,7 +5,7 @@ main {
 }
 
 .intro-text {
-	color: var(--main-colour);
+	color: var(--text-colour);
 	margin-top: 3dvh;
 	border-radius: 5%;
 	text-align: center;
@@ -21,11 +21,12 @@ main {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--main-colour);
+	background-color: var(--accent-colour);
 	margin: 3dvw;
 	border-radius: 5%;
 	width: 60dvw;
 	height: 30dvh;
+	text-decoration: none;
 }
 
 .home-links a img {
@@ -34,14 +35,10 @@ main {
 	border-radius: 5%;
 }
 
-.home-links a {
-	text-decoration: none;
-}
-
 .home-links a span {
 	font-size: 20px;
 	margin: 2px;
-	color: var(--second-colour)
+	color: var(--text-colour)
 }
 
 @media screen and (width > 600px) {

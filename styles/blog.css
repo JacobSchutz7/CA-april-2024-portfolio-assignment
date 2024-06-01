@@ -3,11 +3,16 @@ main {
 	flex-direction: column;
 }
 
+h2, h3, .blog-post {
+	color: var(--text-colour);
+	font-family: var(--second-font);
+}
+
 .blog-post {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: var(--main-colour);
+	background-color: var(--accent-colour);
 	border-radius: 5%;
 	margin: 2dvh 3dvw;
 	padding: 15px;
